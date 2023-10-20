@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {},
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": false,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": false,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "DataStructureAndAlgo.BubbleSort",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "QueuePractice",
+            "request": "launch",
+            "mainClass": "DataStructureAndAlgo.QueuePractice",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "StackPractice",
+            "request": "launch",
+            "mainClass": "DataStructureAndAlgo.StackPractice",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "FinalProject",
+            "request": "launch",
+            "mainClass": "GUI.FinalProject",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "JFrameExample",
+            "request": "launch",
+            "mainClass": "GUI.JFrameExample",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "test1",
+            "request": "launch",
+            "mainClass": "GUI.test1",
+            "projectName": "JAVA_OCA_f64f38d7"
+        }
+    ]
+}
