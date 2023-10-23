@@ -4,6 +4,20 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "DataStructureAndAlgo.SelectionSort",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListPractice",
+            "request": "launch",
+            "mainClass": "DataStructureAndAlgo.LinkedListPractice",
+            "projectName": "JAVA_OCA_f64f38d7"
+        },
         {},
         {
             "name": "Java",
